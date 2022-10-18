@@ -1,0 +1,57 @@
+body{
+    font-family: 'Acme';
+    padding-top: 1rem;
+  }
+  h1,h2,h3,
+  h4 {
+      padding-top: 1rem;
+    }
+
+.original-image{
+    width:40rem;
+    height: auto;
+}
+.background1{
+    padding-left: 5rem;
+    background-color: rgb(192, 250, 208) ;
+
+}
+.column{
+    width: 30%;
+    padding: 2rem;
+    stroke: rgb(192, 250, 208);
+    stroke-width: 8px;
+
+}
+.wireframe{
+    width: 600px;
+}
+.column2{
+    width: 600px;
+    padding: rem;
+    stroke: rgb(192, 250, 208);
+    stroke-width: 8px;
+    /* margin-left: 1cm;
+    margin-right: 1cm; */
+
+}
+
+@media screen and (max-width: 900px) {
+    .column {
+      width: 40%;
+    }
+    .wireframe{
+        width:400px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .column2 {
+        width: 100%;
+    }
+    .wireframe{
+        width:400px;
+    }
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Structure based off of Jeff's bootstrap tutorial https://www.youtube.com/watch?v=6Df6xbs5m8A -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Redesign</title> 
+</head>
+<body>
+    <div class="d-flex flex-column background1 justify-content-center align-items-center" style="padding-bottom:1cm;">
+        <h1 style="color:black; padding-top: 4rem; ">Responsive Redesign</h1>
+        <h3>A redesign of Mountain Thunder Coffee Plantation's website</h3>
+        <h3> <a href="https://mountainthunder.com/">old website</a></h3>
+        <h3> <a href="https://uncomfortableunicorn999.github.io/mountain_thunder/">redesigned website</a></h3>
+    </div>
+
+    <div class="d-flex flex-column background1 justify-content-center  bg-white" style="padding-bottom:1cm;">
+        <h3>The Original Website</h3>
+        <p style="margin-right:20%;">The original website can be found <a href="https://mountainthunder.com/">here</a>. Mountain Thunder Plantation is a coffee farm on the big island of
+            Hawai'i; there website serves both information and business purposes as you can order coffee from the site.
+            
+            <br> When I was first looking at the site, there was a second alert on the home page; an image of that site is shown below.</p>
+        <img class='original-image' src="./assets/mountain_thunder_original.png">
+        <h4>Issues with the Original Website</h4>
+        <div class="row">
+            <div class="column"><h5>Learnability</h5>
+            <ul>
+                <li>There are too many tabs for exploration for drop down menus</li>
+                <li>If you want to order you first have to login, but you can get to the ordering page without doing so
+                </li>
+                <li>because there is a side menu bar and a top menu bar it just leaves too many places for people to have search for the information they are trying to find</li>
+                <li>If you are trying to find information as well, there are dead radio buttons that don’t lead to anywhere and you can’t actually select anything from them.</li>
+                <li>The spacing on the top menu bar is also confusing (is it Farm, Tours or Farm Tours)</li>
+                <ul>
+                    <li>They are suffereing from a barage of infromation that it is overwhelming for new users to learn to use
+                    </li>
+                </ul>
+            </ul></div>
+            <div class="column"><h5>Memorability</h5>
+            <ul>
+                <li>The double navigation methods would be an issue</li>
+                <li>Remembering to scroll down to the bottom to sign in,even if you know what you are doing, it is a pain to scroll to the bottom</li>
+                <li> Still the too many links might be hard for users to remember which page they clicked on to get where</li>
+            </ul></div>
+             <div class="column"><h5>Design Issues</h5>
+             <ul>
+                 <li>Overcrowding</li>
+                 <li>Doubled information on multiple pages (the video on the home page is also on the tour page, which is why I removed it)</li>
+                 <li>Unclear Hierarchy for ordering the coffee on the home page (which doesn't even make sense to have ordering on the home page when there is a shopping page)</li>
+                 <li>Inconsistent font size and usage</li>
+             </ul></div>
+            </div>
+        
+        
+        
+        
+    </div>
+
+    <div class="d-flex flex-column background1 justify-content-center" style="padding-bottom:1cm;">
+    <h3>Accessibility</h3>
+    <h5>WAVE Report</h5>
+    <p>The WAVE report for mountain thunder can be found <a href="https://wave.webaim.org/report#/mountainthunder.com">here</a> Below is the summary of results.</p>
+        <ul>
+            <li>40 contrast errors</li>
+            <li>A few cases of missing alt text, but generally they do a very good job</li>
+            <li>A few cases of too small text</li>
+            <li>Multiple links that do not lead anywhere</li>
+            <li>The radio buttons for ordering do not have a group</li>
+            <li>Empty buttons and redundant links</li>
+        </ul>
+    <p>I agree with this report especially on the contrast errors. The website is hard to read because of the style chosen
+        I kept this in mind while redesigning. 
+    </p>
+    </div>
+
+    <div class="d-flex flex-column background1 justify-content-center bg-white align-items-center" style="padding-bottom:1cm;">
+    <h3>Redesigning: Wireframes and Figma</h3>
+        <div class="row align-items-center">
+            <div class="column2">
+                <img class="wireframe" src="./assets/laptop wireframe.png">
+                <p>Wireframe diagram for fullscreen laptop</p>
+            </div>
+            <div class="column2">
+                <img class="wireframe" src="./assets/web figma.png">
+                <p>figma diagram for fullscreen laptop</p>
+            </div>
+            <div class="column2">
+                <img class="wireframe"  src="./assets/ipad wireframe.png">
+                <p>Wireframe diagram for ipad</p>
+            </div>
+            <div class="column2">
+                <img class="wireframe"  src="./assets/ipad figma.png">
+                <p>figma diagram for ipad</p>
+            </div>
+            <div class="column2">
+                <img class="wireframe"  src="./assets/phone wireframe.png">
+                <p>Wireframe diagram for iphone</p>
+            </div>
+            <div class="column2">
+                <img class="wireframe"  src="./assets/iphone figma.png">
+                <p>figma diagram for iphone</p>
+            </div>
+            
+            
+            
+        </div>
+    
+    </div>
+    <div class="d-flex flex-column background1 justify-content-center align-items-center" style="padding-bottom:1cm;">
+        <h3>Visual Design Guide</h3>
+        <img src="./assets/design.png">
+    </div>
+
+  
+</body>
